@@ -11,10 +11,22 @@ header{
     position: relative; /* 이거 차이로 이미지 클리핑이 되고 안됨 */
 }
 
+p{
+    color: #BDBDBD;
+    margin: 0px;
+}
+
+.div_area{
+    margin-bottom: 15px;
+}
+
+.p_title{
+    font-size: 30px;
+}
+
 #div_content{
     width: 50%;
     height: 100%;
-    background-color: white;
     margin: 0px auto;
 }
 
