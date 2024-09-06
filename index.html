@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="https://kit.fontawesome.com/74dad25327.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -14,20 +15,47 @@
             <div class="div_area"><!--간단한 인적사항-->
                 <p class="p_title">정보</p>
                 <hr>
-                <p>전 승 환</p>
-                <p>shwan0422@gmail.com</p>
-                <p>https://github.com/J-seunghwan</p>
+                <table id="table_info">
+                    <tbody>
+                        <tr>
+                            <td>이름</td>
+                            <td>전 승 환</td>
+                        </tr>
+                        <tr>
+                            <td>e-mail</td>
+                            <td>shwan0422@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>github</td>
+                            <td>
+                                <a href='https://github.com/J-seunghwan'>https://github.com/J-seunghwan <i class="fa-solid fa-up-right-from-square fa-xs"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>blog</td>
+                            <td>
+                                <a href='https://blog.naver.com/shwan0422'>https://blog.naver.com/shwan0422 <i class="fa-solid fa-up-right-from-square fa-xs"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div class="div_area">
                 <p class="p_title">학력</p>
                 <hr>
-                <p>목원대학교 일반대학원 석사과정</p>
-                <p>2022.08 ~ 2024.08</p>
-                <p>전공: IT공학과 전자AI로봇융합전공</p>
-                <br>
-                <p>목원대학교</p>
-                <p>2016.03 ~ 2022.08</p>
-                <p>전공: 로봇학과</p>
+                <ul>
+                    <li>
+                        <p>목원대학교 일반대학원 석사과정</p>
+                        <p>2022.08 ~ 2024.08</p>
+                        <p>전공: IT공학과 전자AI로봇융합전공</p>
+                    </li>
+                    <br>
+                    <li>
+                        <p>목원대학교</p>
+                        <p>2016.03 ~ 2022.08</p>
+                        <p>전공: 로봇학과</p>
+                    </li>
+                </ul>
             </div>
             <div class="div_area">
                 <p class="p_title">경력</p>
@@ -39,27 +67,67 @@
             <div class="div_area">
                 <p class="p_title">수상</p>
                 <hr>
-                <p>우수상</p>
-                <p>2022. 11. 28.</p>
-                <p>내용: 한국전자기술연구원 주최, 한국로봇학회에서 주관하는 [2022 로봇제조공정활용 경진대회]에서 입상</p>                
-                <br>
-                <p>최우수상</p>
-                <p>2021. 11. 25.</p>
-                <p>내용: 2021년 공과대학 주최연합 학술제에서 최우수상 입상</p>
+                <ul>
+                    <li>
+                        <p>우수상</p>
+                        <p>2022. 11. 28.</p>
+                        <p>내용: 한국전자기술연구원 주최, 한국로봇학회에서 주관하는 [2022 로봇제조공정활용 경진대회]에서 입상</p>
+                    </li>
+                    <br>
+                    <li>
+                        <p>최우수상</p>
+                        <p>2021. 11. 25.</p>
+                        <p>내용: 2021년 공과대학 주최연합 학술제에서 최우수상 입상</p>
+                    </li>
+                </ul>
             </div>
             <div class="div_area">
                 <p class="p_title">경험</p>
                 <hr>
-                <p>AI로봇기반 인간기계협업기술 전문인력양성</p>
-                <p>2022.09 ~ 2024.08</p>
+                <ol>
+                    <li>
+                        <p>교육</p>
+                        <ul>
+                            <li>
+                                <p>AI로봇기반 인간기계협업기술 전문인력양성</p>
+                                <p>2022.09 ~ 2024.08</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        <p>강의</p>
+                        <ul>
+                            <li>
+                                <p>협동로봇 기반 자동화 공정 교육 조교</p>
+                                <p>2022.10.17. ~ 2022.10.21.</p><!--https://robotcampus.or.kr/edu/read2.nx?page=6&M2_IDX=26651&SHOW_TYPE=NORMAL&&EP_IDX=4834&EM_IDX=4667&^detail^-->
+                                <p>2023.07.12. ~ 2022.07.14.</p><!--https://robotcampus.or.kr/edu/read2.nx?page=5&M2_IDX=26651&SHOW_TYPE=NORMAL&&EP_IDX=5909&EM_IDX=5739&^detail^-->
+                                <p>2023.08.21. ~ 2022.08.23.</p><!--https://robotcampus.or.kr/edu/read2.nx?page=5&M2_IDX=26651&SHOW_TYPE=NORMAL&&EP_IDX=5856&EM_IDX=5686&^detail^-->
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
             </div>
-            <div class="div_paper">
+            <div class="div_area">
                 <p class="p_title">논문</p>
                 <hr>
-                <p>온톨로지와 프롬프트 엔지니어링을 활용한 ChatGPT의 팔레타이징 자동화</p>
-                <p>학위논문</p>
+                <table id="table_paper">
+                    <tbody>
+                        <tr>
+                            <td>온톨로지와 프롬프트 엔지니어링을 활용한 ChatGPT의 팔레타이징 자동화</td>
+                            <td>
+                                <a href="https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=2b8589ca4ea24dd5ffe0bdc3ef48d419&keyword=%EC%A0%84%EC%8A%B9%ED%99%98">학위논문 <i class="fa-solid fa-up-right-from-square fa-xs"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </main>
+    <footer>
+        <div id="div_footer_item">
+            <a href="https://notion.notion.site/aa1d2685514f4a259be85023067c9121">템플릿</a>
+        </div>
+    </footer>
 </body>
 </html>

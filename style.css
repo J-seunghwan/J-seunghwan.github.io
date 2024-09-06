@@ -1,9 +1,19 @@
-html, body, main{
-    height: 100%;
-    background-color: rgb(25,25,25);
-    margin: 0;
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #BDBDBD;
 }
 
+html, body{
+    height: 100%;
+    background-color: #191919;
+}
+
+a{
+    text-decoration-line: none; /*a tag 밑줄*/
+}
+
+/* header tag area */
 header{
     background-color: blueviolet;
     height: 300px;
@@ -11,9 +21,19 @@ header{
     position: relative; /* 이거 차이로 이미지 클리핑이 되고 안됨 */
 }
 
-p{
-    color: #BDBDBD;
-    margin: 0px;
+#img_title{
+    width: 100%;
+    transform: translate(0, -40%);
+}
+
+/* main tag area */
+li{
+    margin-left:20px;
+}
+
+hr{
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .div_area{
@@ -28,9 +48,34 @@ p{
     width: 50%;
     height: 100%;
     margin: 0px auto;
+    padding-top: 10px;
 }
 
-#img_title{
-    width: 100%;
-    transform: translate(0, -40%);
+table{
+    width:100%;
+}
+
+#table_info{
+    td:nth-child(1){
+        width:60px;
+    }
+}
+
+#table_paper{
+    td:nth-child(2){
+        width: 100px;
+    }
+}
+
+
+/* footer tag area */
+footer{
+    height: 120px;
+    background-color: rgb(20, 20, 20);
+}
+
+#div_footer_item{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
 }
